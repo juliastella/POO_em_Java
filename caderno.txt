@@ -1,0 +1,20 @@
+Traballhando com class e instância de objetos:
+
+O arquivo App.java vai ser o principal. Eles vai ser responsalve
+por inicializar a nossa aplicação.
+
+Declaração de atributo:
+
+    Integer idade;
+
+  Para torna privado, ou seja que só a Class  que esse atributo está
+  inserido é preciso colocar o private:
+    
+    private String nome;
+
+   Só vai ser usado esse atributo dentro da Class, que nem todos podem acessar.
+
+  Para torna publico, é necessario adicionar o  public:
+
+    public String nome;
+  
