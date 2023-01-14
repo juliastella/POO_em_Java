@@ -3,18 +3,32 @@ Traballhando com class e instância de objetos:
 O arquivo App.java vai ser o principal. Eles vai ser responsalve
 por inicializar a nossa aplicação.
 
-Declaração de atributo:
-
-    Integer idade;
-
-  Para torna privado, ou seja que só a Class  que esse atributo está
-  inserido é preciso colocar o private:
+Metodos acessores:
+ 
+ Public: qualquer pessoa pode acessar.
     
+    public String nome;
+
+ Private: somente a Class pode acessar
+
     private String nome;
 
-   Só vai ser usado esse atributo dentro da Class, que nem todos podem acessar.
+ Protect: que a Class e seus filhos conseguem acessar.
+   
+    protected Integer idade;
 
-  Para torna publico, é necessario adicionar o  public:
+ Default: a propria class, seu filhos e as class no mesmo package, podem acessar.
 
-    public String nome;
+    String nome;
+      ou 
+    Default Integer idade;
+
+Como criar um objeto?
   
+  Foi feita a Class pessoa(que é um arquivo), é preciso chamar essa Class no 
+  arquivo App.java. Para instancia uma Class é precisso colocar a palavra new.
+   
+   Desta forma:   
+
+   Pessoa pessoa1 = new Pessoa();
+
