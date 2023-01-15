@@ -119,7 +119,15 @@ Polimorfismo, Override e Encapsulamento:
    Override: é sobre escrita de código. Faz com que o metodo antigo não vale mas nada.
    Em miudos, pegar um metodo que já existe ou padrão e reescrever o mesmo. 
 
+Trabalhando com Collections:
 
+    ArrayList = objeto generico, pode guarda qualquer coisa.
+
+    Exemplo:
+
+      private ArrayList<Movimentacao> movitacoes;
+
+   O metodo add() = vai adicionar ao no array.
 
 
 
