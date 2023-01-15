@@ -45,3 +45,35 @@ Evoluindo Class:
 
        Para gerar Getters and Setters automaticamente, basta clicar dentro da Class
        com o botão esquerdo e escolhe a opição Source action -> Generete Getters and Setters.
+
+    Regras:
+
+      Formas de escrever: 
+
+        (Nome de arquivo, Class e cosntrutos) PascalCase: Primeira letra em maiusculo.
+        (Objetos, atributos, metodos, variave e Getters e Setters) Camelcase: Pimeira letra é minuscula da primeira palavra e na segunda
+        palavra é maiusculo.
+        Exemplo Camelcase: nomeCompleto.
+
+
+Trabalhando com tipos de dados:
+
+        byte tipoByte = 127;
+        Short tipoShort = 32767;
+        Integer tipoInteger = 2147483647;
+        Long tipLong = 9223372036854775807L;
+        Float tipoFloat = Float.MAX_VALUE;
+        Double tipoDouble = Double.MAX_VALUE;
+
+        String tipoString = "Teste texto";
+        char tipoChar = 'S';
+        Boolean tipBoolean = false;
+
+
+
+
+
+
+
+
+
