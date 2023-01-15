@@ -80,6 +80,12 @@ public class ContaBancaria {
        // Retorna o valor sacado ao usuario.
        return valor;
     }
+
+    public void transferir(Double valor, ContaBancaria contaDestino){
+        // Efetua um saque na conta atual
+        this.sacar(valor); // encapsulado o metodo sacar, já que transferir usara a mesma fução.
+        contaDestino.depositar(valor); // Vai pegar a operação do saque armazenar em contaDestino e aplicar o metodo
+    }
     // #endregion
 
 }

@@ -82,8 +82,15 @@ Implementando métodos:
    Metodos: são recursos dentro de uma Class ou objeto que gerão comportamentos.
    Constante: é algo que nunca mudar.
 
+Conhecendo heranças:
 
+    Usa-se o camando extends para informar que aquela Class é herdeira.
+   
+    Exemplo:
+    
+      public class ContaCorrente extends ContaBancaria{
 
+   O metodo super serve para passar os valores para o a Class pai.
 
 
 
