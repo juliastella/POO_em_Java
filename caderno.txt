@@ -32,3 +32,16 @@ Como criar um objeto?
 
    Pessoa pessoa1 = new Pessoa();
 
+Evoluindo Class:
+
+  Getters e Setters:
+     
+     Set: recebe o valor do atributo, que será possivel manipular.
+     Get: Deixar visivel os dados.
+    
+     Void = significa que nã retornar nada.
+
+    Dica!
+
+       Para gerar Getters and Setters automaticamente, basta clicar dentro da Class
+       com o botão esquerdo e escolhe a opição Source action -> Generete Getters and Setters.
