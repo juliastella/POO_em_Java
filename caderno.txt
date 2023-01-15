@@ -111,6 +111,14 @@ Trabalhando com classe Static e Abstract:
 
    O arquivo utils: são classes que podem ser usadas em qualquer lugar. É comum que essas classe sejam static.
 
+Polimorfismo, Override e Encapsulamento:
+
+   o metodo toString(): vem em todo objeto, como também ele vem do primeiro objeto do Java.
+   Ele tenta pegar o objeto e transforma em String. 
+
+   Override: é sobre escrita de código. Faz com que o metodo antigo não vale mas nada.
+   Em miudos, pegar um metodo que já existe ou padrão e reescrever o mesmo. 
+
 
 
 
