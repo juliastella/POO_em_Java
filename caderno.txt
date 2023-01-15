@@ -69,6 +69,25 @@ Trabalhando com tipos de dados:
         char tipoChar = 'S';
         Boolean tipBoolean = false;
 
+Implementando métodos:
+
+   Estrutura de páginas:
+
+    Src = Vem de Source, tudo vai está dentro dela.
+      interfaces
+      model = vai está nossos modelos, Class
+      utils
+
+
+   Metodos: são recursos dentro de uma Class ou objeto que gerão comportamentos.
+   Constante: é algo que nunca mudar.
+
+
+
+
+
+
+
 
 
 
