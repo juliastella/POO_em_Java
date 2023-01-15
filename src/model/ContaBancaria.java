@@ -1,13 +1,15 @@
 package src.model;
 
+import java.util.Date;
 import java.util.InputMismatchException;
 
-public class ContaBancaria {
+public  abstract class ContaBancaria {
     // #region atributos
     private String agencia;
     private String conta;
     private Integer digito;
     private Double saldo;
+    private Date dataAbertura; // Usando o arquivo utils
     private Double VALOR_MINIMO_DEPOSITO = 10.0; // Isso é a declaração de uma constante.
     // #endregion
 
@@ -17,6 +19,7 @@ public class ContaBancaria {
         this.conta = conta;
         this.digito = digito;
         this.saldo = saldoInicial;
+        this.dataAbertura = new Date(); // vai pegar data e hora do pc e vai usala.
     }
     // #endregion
 
@@ -48,7 +51,9 @@ public class ContaBancaria {
     public Double getSaldo() {
         return saldo;
     }// Não vai existi um set para saldo, pois saldo não vai ser alterado
-
+    public Date getDataAbertura() {
+        return dataAbertura;
+    }// Não vai existir, pois a data vai ser no momento em que estiver construindo a mesma.
     // #endregion
 
     // #region Metodos

@@ -92,8 +92,24 @@ Conhecendo heranças:
 
    O metodo super serve para passar os valores para o a Class pai.
 
+Trabalhando com classe Static e Abstract:
+  
+   Class Abstract: a class vai ser travada ou seja não pode ser instanciada, e serve para ser usada de modelo por outras.
 
+    Exemplo:
 
+    public  abstract class ContaBancaria {}
+
+   Java.utils = é um pacote padrão do Java.
+
+   Class Static: não obriga a instanciar o objeto, podendo usar.
+   Servem para fazer converções e não armazenam valores em propriedades.
+
+   Exemplo no metodo:
+
+    public static String converterDateParaHora(Date data) {}
+
+   O arquivo utils: são classes que podem ser usadas em qualquer lugar. É comum que essas classe sejam static.
 
 
 
