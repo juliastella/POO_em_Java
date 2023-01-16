@@ -6,13 +6,13 @@ import java.util.InputMismatchException;
 
 public abstract class ContaBancaria {
     // #region atributos
-    private String agencia;
-    private String conta;
-    private Integer digito;
-    private Double saldo;
-    private Date dataAbertura; // Usando o arquivo utils
-    private ArrayList<Movimentacao> movimentacoes; // Podem ter varias movimentações, já que um array.
-    private Double VALOR_MINIMO_DEPOSITO = 10.0; // Isso é a declaração de uma constante.
+    protected String agencia;
+    protected String conta;
+    protected Integer digito;
+    protected Double saldo;
+    protected Date dataAbertura; // Usando o arquivo utils
+    protected ArrayList<Movimentacao> movimentacoes; // Podem ter varias movimentações, já que um array.
+    protected Double VALOR_MINIMO_DEPOSITO = 10.0; // Isso é a declaração de uma constante.
     // #endregion
 
     // #region Construtor
@@ -113,6 +113,10 @@ public abstract class ContaBancaria {
         this.sacar(valor); // encapsulado o metodo sacar, já que transferir usara a mesma fução.
         contaDestino.depositar(valor); // Vai pegar a operação do saque armazenar em contaDestino e aplicar o metodo
     }
+
+
+    public abstract void imprimirExtrato(); // Obrigar quem esta implementando a roda o metodo.
+
     // #endregion
 
 }

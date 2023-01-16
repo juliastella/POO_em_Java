@@ -129,6 +129,18 @@ Trabalhando com Collections:
 
    O metodo add() = vai adicionar ao no array.
 
+   Um metodo pode ser Abstract, contudo não vai poder ter implementação.
+
+   Exemplo: 
+
+    Com implementação: 
+     
+      public void transferir(){} // As chaves são a implementação.
+
+    Sem implementação e com abstract:
+      
+       public abstract void imprimirExtrato(); 
+
 
 
 
