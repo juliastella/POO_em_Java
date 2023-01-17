@@ -1,6 +1,6 @@
 package src.model;
 
-public class pessoa {
+public class Pessoa {
     //#region atributo
     protected String nome;
     protected String telefone;
@@ -9,7 +9,7 @@ public class pessoa {
   
 
     //#region Construtor
-    public pessoa(String nome, String telefone, String cpf) {
+    public Pessoa(String nome, String telefone, String cpf) {
         this.nome = nome;
         this.telefone = telefone;
         this.cpf = cpf;
@@ -35,5 +35,5 @@ public class pessoa {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    //#region
+    //#endregion
 }

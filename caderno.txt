@@ -141,6 +141,17 @@ Trabalhando com Collections:
       
        public abstract void imprimirExtrato(); 
 
+Conhecendo as interfaces:
+
+   O que é o interfaces: são contratos que podem se implementados nas classes
+   para gera comportamentos especificos. Ou seja o contrato é o que dita as regras do que vai acontecer.
+
+   Exemplo: 
+
+   public class Camareira extends pessoa implements ComportamentoCamarira{}
+
+     Adiciona a palavra implements mais o arquivo de implementação.
+
 
 
 
