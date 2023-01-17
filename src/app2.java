@@ -11,6 +11,9 @@ import src.model.Quarto;
 import src.model.Recepionista;
 
 public class app2 {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Hotel java");
         System.out.println();
@@ -77,11 +80,10 @@ public class app2 {
         clientes.stream()
         .limit(2)
         .forEach(c -> System.out.println(c.getNome())); // vai printar usando a regra somente os nomes.
+        
         //Testar essa parte
-        /*System.out.println(clientes.stream().limit(2));
-        var resultado1 = clientes.stream().limit(2);
-        String t;
-        List<t>  resultado1 = clientes.stream().limit(2);*/
+        /*var resultado1 = clientes.stream().limit(2);
+        List<Cliente> resultado1 = (List<Cliente>);*/
 
         clientes.stream().skip(2); // o skip serve para pular linha.
         clientes.stream().sorted(); // Vai ordena pela ordem padrao dos elementos.

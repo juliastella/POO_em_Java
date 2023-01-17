@@ -181,7 +181,26 @@ Conhecendo os Enums:
 Trabalhando com Streams:
 
    Stream: é uma coleção que permite fazer interação em cima dela.
-   
+
+SOLID: 
+
+    O que é SOLID é um termo. Acrônimo de 5 principios da orientação a objetos.
+
+    (S) - Single Responsablity Principle: principio de responsabilidade única.
+         Significa: que a class deve ter uma única responsabilidade
+    
+    (O) - Opem-closed Principle: principio do aberto e fechado.
+         Não pode alterar algo que já esta em funcionamento. Contudo, pode melhorar.
+
+    (L) - Liskov Substituituon Principle: principio de substituição de Liskov.
+          Uma class derivada deve ser subistituida pela sua class tipo base, a que deu origem.
+
+    (I) -  Interface Segregation Principle: pricipio de segrgação da interface.
+         Uma class não deve ser forçada a implementar metodos e interfaces que não vai ultilizar.
+
+    (D) - Dependency Inversion Principle: Principio da inversão de dependecia.
+         Todas a s dependecias de uma class, dentro dela deve ser passada por paramentro.
+         As class devem depedem de abstrações e não de implementações. 
 
 
 
