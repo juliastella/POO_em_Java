@@ -163,6 +163,19 @@ Conhecendo as interfaces:
     
      Class abstract pode ter atributos e implementações, já são simplesmente contratos ou metodos.
 
+Conhecendo os Enums:
+
+   O que é um Enum: é uma estrutura, e enumerador.
+
+    Exemplo: 
+
+    public enum EnumTipo {}
+
+    Sobre a estrutura:
+      
+      Sintaxe de construção:
+        
+        BASICO("Basico"), MASTER("Master") = em maiusculo s são a constante e minusculo e entre parenteses, o valor da constante.
 
 
 

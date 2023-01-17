@@ -2,7 +2,9 @@ package src;
 
 import src.model.Camareira;
 import src.model.Cliente;
+import src.model.EnumTipo;
 import src.model.Gerente;
+import src.model.Quarto;
 import src.model.Recepionista;
 
 public class app2 {
@@ -28,6 +30,19 @@ public class app2 {
         gerente1.limparQuarto();
         gerente1.atendeOTelefone();
         gerente1.falaIngles();
-   
+        
+        Quarto quarto1 = new Quarto();
+        quarto1.setNumeroQuarto("30A");
+        quarto1.setValor(300.0);
+        quarto1.setTipo(EnumTipo.MASTER); // chamando o enum
+
+        Quarto quarto2 = new Quarto();
+        quarto2.setNumeroQuarto("30A");
+        quarto2.setValor(300.0);
+        quarto2.setTipo(EnumTipo.PRESIDENCIAL); // chamando o enum
+
+        System.out.println(quarto2.getTipo());
+        System.out.println(quarto2.getTipo().getValor());
+
     }
 }
