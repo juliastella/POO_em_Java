@@ -9,7 +9,7 @@ public class Recepionista extends Pessoa implements ComportamentoRecepicionista{
         //TODO Auto-generated constructor stub
     }
     
-    //#region implementações
+    //#region interfaces
     @Override
     public void atendeOTelefone() {
         System.out.println("Sou qualificada para o atedimento.");

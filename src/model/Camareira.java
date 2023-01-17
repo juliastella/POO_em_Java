@@ -8,7 +8,7 @@ public class Camareira extends Pessoa implements ComportamentoCamarira{
         super(nome, telefone, cpf);
         //TODO Auto-generated constructor stub
     }
-    //#region implementações
+    //#region interfaces
     @Override
     public void arrumaACama() {
         System.out.println("Sou qualificada para a vaga.");

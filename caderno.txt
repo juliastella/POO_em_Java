@@ -152,6 +152,16 @@ Conhecendo as interfaces:
 
      Adiciona a palavra implements mais o arquivo de implementação.
 
+   Uma implementação pode ser usada em outras classes. Ou seja o comportamento é replicado para outras classes.
+   
+   Exemplo: 
+    
+     public class Gerente extends Pessoa implements ComportamentoCamarira, ComportamentoRecepicionista{}
+
+
+   Diferença de class abstract e interfaces:
+    
+     Class abstract pode ter atributos e implementações, já são simplesmente contratos ou metodos.
 
 
 
