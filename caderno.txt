@@ -178,6 +178,12 @@ Conhecendo os Enums:
         BASICO("Basico"), MASTER("Master") = em maiusculo s são a constante e minusculo e entre parenteses, o valor da constante.
 
 
+Trabalhando com Streams:
+
+   Stream: é uma coleção que permite fazer interação em cima dela.
+   
+
+
 
 
 
